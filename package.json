@@ -1,0 +1,16 @@
+{
+    "name": "kagero",
+    "version": "0.4.1",
+    "license": "MIT",
+    "files": [
+        "src"
+    ],
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "type": "module",
+    "peerDependencies": {
+        "@hono/inertia": "^0.7.0",
+        "hono": "^4.13.2"
+    }
+}
